@@ -18,6 +18,7 @@ DATASETS:
 12. https://www.cs.utah.edu/~lifeifei/SpatialDataset.htm
 13. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CUWWYJ
 14. https://snap.stanford.edu/data/index.html#road
+15. https://archive-beta.ics.uci.edu/ml/datasets/cargo+2000+freight+tracking+and+tracing
 
 
 
