@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body{
+    overflow-x: hidden;
+    background: #F7F7F9;
+}
+
+nav{
+    height: 1024px;
+    width: 136px;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background: #2B2D42;
+    left: 0px;
+    top: 0px;
+}
+
+.logo{
+    padding: 1vh 2vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    font-family: 'Rajdhani';
+
+}
+
+h1{
+    position: absolute;
+    width: 99px;
+    height: 31px;
+    left: 19px;
+    top: 26px;
+
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #41E2BA;
+
+}
+
+.sidebar{
+    display: block;
+    list-style: none;
+    width: 90vw;
+    padding-top: 20vw;
+    align-items: center;
+}
+
+.sidebar #homeicon{
+    padding: -10px 0px 5px 0px;
+    margin: 5px -5px 10px -45px;
+    align-items: center;
+}
+
+.sidebar #ordericon{
+    padding: -10px 0px 5px 0px;
+    margin: 5px -5px 10px -45px;
+    align-items: center;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    top: 222px;
+    display: block;
+    padding: 10px 0px 20px 0px;
+    margin: 5px -25px 10px -131px;
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 13px;
+    color: #E86A92;
+}
+
+.order{
+    position: fixed;
+    width: 500px;
+    height: 620px;
+    left: 500px;
+    top: 50px;
+    padding: 20px;
+    background: #2B2D42;
+    border-radius: 33px 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.order::-webkit-scrollbar{
+    display: none;
+}
+
+.order h3{
+    font-family: 'Rajdhani';
+   text-align: center;
+   font-size: 28px;
+   margin-top: 7px;
+   font-weight: 600;
+   color: #E86A92;
+   left: 300px;
+   border-bottom-style: dotted;
+}
+
+.order p{
+    font-family: 'Rajdhani';
+    font-weight: 600;
+    font-size: 18px;
+    color: #41E2BA;
+}
+
+.input-field{
+    width: 400px;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 2px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    font-family: 'Rajdhani';
+    color: white;
+}
+
+label{
+    font-family: 'Rajdhani';
+    font-size: 18px;
+    color: white;
+}
+
+.form1{
+    margin: 10px;
+}
+
+.btn{
+    padding: 20px 50px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    background: #E86A92;
+    border: 0;
+    outline: none;
+    border-radius: 33px 0px;
+    width: 50%;
+    font-family: 'Rajdhani';
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.orderDetails{
+    display:none;
+    color:white;
+}
+
+.orderDetails p{
+    color: white;
+}
+
+.orderDetails h3{
+   font-family: 'Rajdhani';
+   text-align: center;
+   font-size: 28px;
+   margin-top: 7px;
+   font-weight: 600;
+   color: #E86A92;
+   left: 300px;
+   border-bottom-style: dotted;
+}
+
+.form2{
+    margin: 10px;
+}
+
+.form2 .btn{
+    padding: 20px 50px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    background: #E86A92;
+    border: 0;
+    outline: none;
+    border-radius: 33px 0px;
+    width: 50%;
+    font-family: 'Rajdhani';
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}

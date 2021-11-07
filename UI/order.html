@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="order.css">
+        <title>Profecta</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="./order.js"></script>
+        <body>
+            <header>
+                <nav class="nav" id="navbar">
+                    <div class="logo" id="logo">
+                        <h1>Profecta</h1>
+                    </div>
+                    <ul class="sidebar">
+                        <i id="homeicon" class="fa fa-home" style="color: white;"></i>
+                        <li>
+                            <a href="index.html" id="home">Home</a>
+                        </li>
+                        <i id="ordericon" class="fa fa-shopping-cart" style="color: white;"></i>
+                        <li id="active">
+                            <a href="" id="order">Order Details</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="orderpage">
+                <div class="order">
+                    <h3>Order Details Form</h3>
+                    <form onsubmit="event.preventDefault();">
+                        <p>Product</p>
+                        <input
+                            type="name"
+                            name="product"
+                            class="input-field"
+                            required
+                        >
+                        <p>Total Value of product</p>
+                        <input
+                            type="number"
+                            name="totalvalue"
+                            class="input-field"
+                            required
+                        >
+                        <p>Weight of Package</p>
+                        <input
+                            type="number"
+                            name="weight"
+                            class="input-field"
+                            required
+                        >
+                        <p>Source</p>
+                        <input
+                            type="name"
+                            name="source"
+                            class="input-field"
+                            required
+                        >
+                        <p>Destination</p>
+                        <input
+                            type="name"
+                            name="destination"
+                            class="input-field"
+                            required
+                        >
+                        <p>Date of reaching source</p>
+                        <input
+                            type="date"
+                            name="sourcedate"
+                            class="input-field"
+                            required
+                        >
+                        <p>Estimated time of delivery</p>
+                        <input
+                            type="date"
+                            name="deliverytime"
+                            class="input-field"
+                            required
+                        >
+                        <p>Estimated Cost</p>
+                        <input
+                            type="number"
+                            name="estimcost"
+                            class="input-field"
+                            required
+                        >
+                        <p>Max Budget</p>
+                        <input
+                            type="number"
+                            name="maxbudget"
+                            class="input-field"
+                            required
+                        >
+                        <p>Max Time Delay Allowed</p>
+                        <input
+                            type="number"
+                            name="timedelay"
+                            class="input-field"
+                            required
+                        >
+                        <p>Penalty for Time Delay</p>
+                        <input
+                            type="number"
+                            name="penalty"
+                            class="input-field"
+                            required
+                        >
+                        <p>Priority</p>
+                        <input
+                            type="name"
+                            name="priority"
+                            class="input-field"
+                            required
+                        >
+                        <p>Cooling</p>
+                        <input
+                            type="radio"
+                            id="y"
+                            name="cooling"
+                            value="y"
+                        >
+                        <label for="y">y</label>
+                        <input
+                            type="radio"
+                            id="n"
+                            name="cooling"
+                            value="n"
+                        >
+                        <label for="n">n</label>
+                        <br>
+                        <p>Fragile Material</p>
+                        <input
+                            type="radio"
+                            id="y"
+                            name="fragile"
+                            value="y"
+                        >
+                        <label for="y">y</label>
+                        <input
+                            type="radio"
+                            id="n"
+                            name="fragile"
+                            value="n"
+                        >
+                        <label for="n">n</label>
+                        <br>
+                        <p>Supply Chain Friendly</p>
+                        <input
+                            type="radio"
+                            id="y"
+                            name="scf"
+                            value="y"
+                        >
+                        <label for="y">y</label>
+                        <input
+                            type="radio"
+                            id="n"
+                            name="scf"
+                            value="n"
+                        >
+                        <label for="n">n</label>
+                        <br>
+                        <p>Environment Friendly</p>
+                        <input
+                            type="radio"
+                            id="y"
+                            name="env"
+                            value="y"
+                        >
+                        <label for="y">y</label>
+                        <input
+                            type="radio"
+                            id="n"
+                            name="env"
+                            value="n"
+                        >
+                        <label for="n">n</label>
+                        <br>
+                        <div class="form1">
+                            <input
+                                type="submit"
+                                name="review"
+                                class="btn"
+                                value="Finish & Review"
+                                onclick="preview()"
+                            >
+                        </div>
+                    </form>
+                </div>
+
+                <div class="order orderDetails">
+                    <h3>Order Details</h3>
+
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+                    <p class="details"></p>
+
+                    <div class="form2">
+                        <input
+                            type="submit"
+                            name="submit"
+                            class="btn"
+                            value="Submit"
+                        >
+                    </div>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>

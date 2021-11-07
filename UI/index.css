@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body{
+    overflow-x: hidden;
+    background: #F7F7F9;
+}
+
+nav{
+    height: 1024px;
+    width: 136px;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background: #2B2D42;
+    left: 0px;
+    top: 0px;
+}
+
+.logo{
+    padding: 1vh 2vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    font-family: 'Rajdhani';
+
+}
+
+h1{
+    position: absolute;
+    width: 99px;
+    height: 31px;
+    left: 19px;
+    top: 26px;
+
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #41E2BA;
+
+}
+
+.sidebar{
+    display: block;
+    list-style: none;
+    width: 90vw;
+    padding-top: 20vw;
+    align-items: center;
+}
+
+.sidebar #homeicon{
+    padding: -10px 0px 5px 0px;
+    margin: 5px -5px 10px -45px;
+    align-items: center;
+}
+
+.sidebar #ordericon{
+    padding: -10px 0px 5px 0px;
+    margin: 5px -5px 10px -45px;
+    align-items: center;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    top: 222px;
+    display: block;
+    padding: 10px 0px 20px 0px;
+    margin: 5px -25px 10px -131px;
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 13px;
+    color: #E86A92;
+}
+
+.homepage h1{
+    position: absolute;
+    width: 472px;
+    height: 61px;
+    left: 155px;
+    top: 20px;
+
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+
+}
+
+.content{
+    position: fixed;
+    width: 750px;
+    height: 620px;
+    left: 625px;
+    top: 50px;
+
+    background: #2B2D42;
+    border-radius: 33px 0px;
+
+}
+
